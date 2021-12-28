@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listItemRCView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="413dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/purple_200"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/listItemImage"
+                    android:layout_width="120dp"
+                    android:layout_height="114dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/ic_baseline_image_24"></ImageView>
+
+                <TextView
+                    android:id="@+id/listItemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="25dp"
+                    android:text="yemek adı"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="vertical"
+                android:padding="0dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:text="   Malzemeler"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/listItemName2"
+                    android:layout_width="332dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:autoText="true"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:text="   malzeme"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:text="  Tarif"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/listItemName5"
+                    android:layout_width="332dp"
+                    android:layout_height="79dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:text="   tarif"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

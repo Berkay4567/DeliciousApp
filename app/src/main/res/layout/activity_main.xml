@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@android:color/white"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               android:text="Yemek tarifleri"
+               android:textSize="36sp"
+               android:textStyle="bold"></TextView>
+
+           <ImageButton
+               android:id="@+id/newFood"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_margin="1dp"
+               android:background="@drawable/ic_baseline_add_circle_outline_24">
+
+           </ImageButton>
+
+           <Button
+               android:id="@+id/button105"
+               android:layout_width="45dp"
+               android:layout_height="50dp"
+               android:layout_weight="1"
+               android:background="?attr/actionModeCloseDrawable" />
+
+       </LinearLayout>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclerView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/b">
+
+       </androidx.recyclerview.widget.RecyclerView>
+
+
+   </LinearLayout>
+
+</RelativeLayout>

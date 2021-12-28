@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context=".Menu">
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="cursive"
+        android:text="Delicious"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="75sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/button100"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/button100"
+        android:layout_width="335dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/textColorHint"
+        android:fontFamily="@font/carter_one"
+        android:text="Diyet Yemek Tarifleri"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button101"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button101"
+        android:layout_width="335dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/textColorHint"
+        android:fontFamily="@font/carter_one"
+        android:text="Diyabet Yemek Tarifleri"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button102"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button102"
+        android:layout_width="335dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/textColorHint"
+        android:fontFamily="@font/carter_one"
+        android:text="Türk Yemekleri"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button103"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button103"
+        android:layout_width="335dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/textColorHint"
+        android:fontFamily="@font/carter_one"
+        android:text="Pratik Tarifler"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button104"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button104"
+        android:layout_width="335dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="144dp"
+        android:background="?android:attr/textColorHint"
+        android:fontFamily="@font/carter_one"
+        android:text="Tarif ekle"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
